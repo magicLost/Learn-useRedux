@@ -11,6 +11,12 @@
 # production
 /build
 
+/src/static/
+
+/public/favicon.ico
+
+/src/logo.svg
+
 # misc
 .DS_Store
 .env.local

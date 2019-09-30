@@ -1,0 +1,72 @@
+.Tantamareski{
+
+  overflow: hidden;
+
+  .Section{
+
+    width: 100%;
+    min-height: calc(100vh - 75px);
+
+  }
+
+  header{
+    position: fixed;
+    height: 55px;
+    width: 100vw;
+
+    padding-top: 10px;
+
+    border-bottom: 1px solid black;
+  }
+
+  .Switcher{
+
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+
+    .Title{
+
+      width: 300px;
+      padding-top: 7px;
+
+    }
+
+    .Button{
+
+      padding: 5px;
+      border-radius: 10px;
+      background: transparent;
+      border: solid 2px black;
+
+    }
+
+  }
+
+}
+
+.AnimationMoveFromRightToCenter{
+
+  animation: moveFromRightToCenter  0.5s 1 ease;
+
+}
+
+.AnimationMoveFromLeftToCenter{
+
+  animation: moveFromLeftToCenter  0.5s 1 ease;
+
+}
+
+@keyframes moveFromLeftToCenter {
+  from {transform: translate(-100%, 0)}
+  to {transform: translate(0, 0)}
+}
+
+@keyframes moveFromRightToCenter {
+  from {transform: translate(100%, 0)}
+  to {transform: translate(0, 0)}
+}

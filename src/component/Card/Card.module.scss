@@ -1,0 +1,33 @@
+.Card{
+
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+
+  min-width: 275px;
+
+  background-color: #fff;
+
+  border-radius: 4px;
+
+  .Content{
+
+    padding: 16px;
+
+    .TextSecondary{
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    .MarginBottom{
+      margin-bottom: 12px;
+    }
+
+  }
+
+  .Actions{
+
+    display: flex;
+    padding: 8px;
+    align-items: center;
+
+  }
+
+}
